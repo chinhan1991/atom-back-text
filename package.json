@@ -2,7 +2,7 @@
   "name": "back-text",
   "main": "./lib/back-text",
   "version": "0.1.0",
-  "description": "A short description of your package",
+  "description": "Display the nearest TODO line on top right of the editor",
   "keywords": [],
   "activationCommands": {
     "atom-workspace": "back-text:show"
