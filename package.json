@@ -8,7 +8,7 @@
   "activationCommands": {
     "atom-workspace": "back-text:show"
   },
-  "repository": "https://github.com/atom/back-text",
+  "repository": "https://github.com/chinhan1991/atom-back-text",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
