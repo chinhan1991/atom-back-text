@@ -1,0 +1,32 @@
+// The ui-variables file is provided by base themes provided by Atom.
+//
+// See https://github.com/atom/atom-dark-ui/blob/master/styles/ui-variables.less
+// for a full listing of what's available.
+@import "ui-variables";
+
+
+@font-face {
+  font-family: "Press Start 2P";
+  src: url("atom://back-text/fonts/PressStart2P-Regular.ttf")  format("truetype");
+}
+
+.back-text {
+}
+
+atom-text-editor::shadow .backtext-container,
+.backtext-container{
+  font-family: "Press Start 2P";
+  position: absolute;
+  font-size: 70px;
+  width: 500px;
+  z-index: 10;
+  top: 0;
+  right: 140px;
+  text-align: right;
+  // display: block;
+  .title {
+    color: rgb(170, 170, 170);
+    text-shadow: 1px 1px 1px rgb(159, 159, 159);
+    font-size: 16px;
+  }
+}

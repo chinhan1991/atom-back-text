@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Show back-text",
+        "command": "back-text:show"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "back-text",
+          "submenu": [
+            {
+              "label": "Show",
+              "command": "back-text:show"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
